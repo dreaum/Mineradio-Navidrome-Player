@@ -13,7 +13,7 @@
 ```bash
 # 克隆仓库
 git clone https://github.com/dreaum/Mineradio-Navidrome-Player.git
-cd Mineradio
+cd Mineradio-Navidrome-Player
 
 # 安装依赖
 npm install
@@ -121,7 +121,7 @@ npm run build:win
 
 ## 获取帮助
 
-- 查看现有 [Issues](https://github.com/oirge/Mineradio/issues)
+- 查看现有 [Issues](https://github.com/dreaum/Mineradio-Navidrome-Player/issues)
 - 查看 [README](./README.md) 了解项目概况
 - 有问题可以在 Issue 中提问
 

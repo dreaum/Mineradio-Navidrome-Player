@@ -23,6 +23,9 @@ win-unpacked/
 .qq-cookie
 updates/
 backups/
+userdata/
+.diag-userdata-*/
+.upstream-rebase-marker
 *.log
 *.tmp
 *.cache
