@@ -1,4 +1,6 @@
-# Mineradio AI Handoff
+# Mineradio AI Handoff (历史归档)
+
+> 本文件保留原项目维护记录，不代表当前 Navidrome 分支的发布状态、仓库地址或版本。当前项目请以 `README.md`、`RELEASE.md` 和 `docs/UPSTREAM_COMPARISON.md` 为准。
 
 这个文件是给后续接管本工作区的 AI 看的。每次完成一个任务后，都要更新本文件的「工作日志」和「未完成事项」，让下一位接手者能快速知道用户偏好、当前状态和最近做过什么。
 

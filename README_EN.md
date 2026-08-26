@@ -16,6 +16,12 @@ Main branch: [`main`](https://github.com/dreaum/Mineradio-Navidrome-Player/tree/
 - Albums, artists, playlists, search, favourites, and lyrics
 - Local media, cover, and lyric proxy with playback-quality selection
 - Passwords are protected by Windows/Electron secure storage and are never committed to the repository
+- Automatic caching: Navidrome metadata, lyrics, covers, and network/audio fragments are reused; cover blobs have a bounded access-time eviction policy and the desktop cache directory can be inspected or changed
+- Local-library caching and prefetch: lyrics, covers, beat analysis, and media URLs support on-demand loading, prefetch, cancellation, and expiry handling
+- Foreground resource controls: configurable foreground frame-rate caps, reduced rendering while hidden or idle, and background-only application memory trimming with optional Windows memory-list release
+- Lifecycle cleanup: closing desktop lyrics, wallpaper overlays, or the mini player releases retained lyrics, covers, beat maps, and object URLs
+- Large-file handling: authorized range reads and bounded metadata memory for local MP3, FLAC, M4A, and other supported formats
+- Audio-focus protection: optionally pauses when another Windows media session becomes active and resumes after the conflict clears
 - Lyric stage, particles, 3D playlist shelf, desktop lyrics, mini player, and visual controls
 - Local library import with MP3 / FLAC / M4A / WAV / OGG playback
 

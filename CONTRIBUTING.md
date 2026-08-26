@@ -12,7 +12,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/oirge/Mineradio.git
+git clone https://github.com/dreaum/Mineradio-Navidrome-Player.git
 cd Mineradio
 
 # 安装依赖
