@@ -1,0 +1,6 @@
+'use strict';
+const assert = require('node:assert/strict');
+const test = require('node:test');
+const { AudioFocusMonitor, makeAudioSessionMonitorScript, normalizePidList } = require('../desktop/audio-focus-monitor');
+test('audio focus monitor requires sustained external media and emits resume state', () => { const events = []; const monitor = new AudioFocusMonitor({ onConflict: (event) => events.push(event), requiredSamples: 2 }); monitor.enabled = true; monitor.acceptCandidateSources([]); monitor.acceptCandidateSources(['edge']); assert.equal(events.length, 0); monitor.acceptCandidateSources(['edge']); assert.deepEqual(events[0].sources, ['edge']); assert.equal(events[0].active, true); monitor.acceptCandidateSources([]); assert.equal(events.length, 1); monitor.acceptCandidateSources([]); assert.equal(events[1].active, false); });
+test('audio focus monitor script reads Windows media-control sessions', () => { const script = makeAudioSessionMonitorScript(1250); assert.match(script, /GlobalSystemMediaTransportControlsSessionManager/); assert.match(script, /PlaybackStatus -eq 4/); assert.match(script, /SourceAppUserModelId/); assert.match(script, /ConvertTo-Json -Compress/); assert.deepEqual(normalizePidList([1, '2', 2, 0, 'bad']), [1, 2]); });
