@@ -2,7 +2,7 @@
 
 Mineradio Navidrome Player 是基于 Mineradio 的 Windows Electron 音乐播放器分支。它保留沉浸式歌词舞台、粒子视觉、3D 歌单架、迷你播放器和桌面模式，并增加了面向个人 Navidrome 服务的音乐库浏览、搜索、歌单和播放能力。
 
-当前开发分支：[`Mineradio`](https://github.com/dreaum/Mineradio-Navidrome-Player/tree/Mineradio)
+当前主分支：[`main`](https://github.com/dreaum/Mineradio-Navidrome-Player/tree/main)
 
 ## 当前状态
 

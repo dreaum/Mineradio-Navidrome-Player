@@ -2,7 +2,7 @@
 
 Mineradio Navidrome Player is a Windows Electron player branch based on Mineradio. It keeps the immersive lyric stage, particle visuals, 3D playlist shelf, mini player, and desktop mode while adding personal Navidrome library playback.
 
-Development branch: [`Mineradio`](https://github.com/dreaum/Mineradio-Navidrome-Player/tree/Mineradio)
+Main branch: [`main`](https://github.com/dreaum/Mineradio-Navidrome-Player/tree/main)
 
 ## Status
 

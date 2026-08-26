@@ -3,7 +3,7 @@
 ## Baseline
 
 - Upstream project: [XxHuberrr/Mineradio](https://github.com/XxHuberrr/Mineradio), `main` at `89c0d230c3f1f792e5d9639781ebbf724c4efbfe` (verified 2026-08-27)
-- This branch: [dreaum/Mineradio-Navidrome-Player](https://github.com/dreaum/Mineradio-Navidrome-Player/tree/Mineradio)
+- This branch: [dreaum/Mineradio-Navidrome-Player](https://github.com/dreaum/Mineradio-Navidrome-Player/tree/main)
 - Package identity: `mineradio-navidrome` `0.1.0`
 
 The local branch and the upstream repository do not have a common Git ancestor, so this is a source-level functional comparison rather than a commit-range diff.

@@ -2,7 +2,7 @@
 
 ## 0.1.0
 
-当前源码分支为 `Mineradio`，目标仓库为 `https://github.com/dreaum/Mineradio-Navidrome-Player`。
+当前源码主分支为 `main`，目标仓库为 `https://github.com/dreaum/Mineradio-Navidrome-Player`。
 
 本次仅同步 Navidrome 版本源码及文档：
 

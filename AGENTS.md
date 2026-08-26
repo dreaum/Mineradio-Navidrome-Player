@@ -3,7 +3,7 @@
 ## Repository
 
 - 可写源码仓库：`F:\code\Codex\Mineradio Navidrome Player`
-- 发布目标：`https://github.com/dreaum/Mineradio-Navidrome-Player.git` 的 `Mineradio` 分支
+- 发布目标：`https://github.com/dreaum/Mineradio-Navidrome-Player.git` 的 `main` 分支
 - 上游基准：`https://github.com/XxHuberrr/Mineradio.git`
 - 当前包版本：`0.1.0`
 
